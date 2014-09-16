@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DAL
+Bundle-SymbolicName: it.ismb.pert.osgi.dal;singleton:=true
+Bundle-Version: 1.0.0
+Require-Bundle: org.eclipse.osgi.services
+Export-Package: org.osgi.service.dal
+Import-Package: org.osgi.framework
+Bundle-Vendor: Istituto Superiore Mario Boella
+
