@@ -1,6 +1,6 @@
 # OSGi Device Abstraction Layer implementation
 
-This bundle implements OSGi Device Abstraction Layer [rfc0196] https://github.com/osgi/design/raw/master/rfcs/rfc0196/
+This bundle implements OSGi Device Abstraction Layer [rfc0196](https://github.com/osgi/design/raw/master/rfcs/rfc0196/)
 
 ##License
 
