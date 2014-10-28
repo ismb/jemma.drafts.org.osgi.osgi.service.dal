@@ -62,6 +62,7 @@ public interface Units {
 	static final String WATT_PER_SQUARE_METRE_STERADIAN = "W/(m\u00b2 sr)";
 	static final String KATAL_PER_CUBIC_METRE = "kat/m\u00b3";
 	static final String TIME_MINUTE = "min";
+	static final String SECOND = "s";
 	static final String HOUR = "h";
 	static final String DAY = "d";
 	static final String DEGREE = "\u00b0";
@@ -107,6 +108,7 @@ public interface Units {
 	static final String PREFIX_ATTO = "a";
 	static final String PREFIX_ZEPTO = "z";
 	static final String PREFIX_YOCTO = "y";
+	
 	//added for energy consumption of devices
 	static final String WATT_PER_HOUR="W h";
 }
