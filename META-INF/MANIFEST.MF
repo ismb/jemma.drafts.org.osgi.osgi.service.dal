@@ -5,6 +5,6 @@ Bundle-SymbolicName: it.ismb.pert.osgi.dal;singleton:=true
 Bundle-Version: 1.0.0
 Bundle-Vendor: Istituto Superiore Mario Boella
 Export-Package: org.osgi.service.dal
-Require-Bundle: org.eclipse.osgi.services
-Import-Package: org.osgi.framework
+Import-Package: org.osgi.framework,
+ org.osgi.service.event
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
