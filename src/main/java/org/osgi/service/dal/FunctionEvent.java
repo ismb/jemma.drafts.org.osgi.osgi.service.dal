@@ -23,7 +23,7 @@ public class FunctionEvent extends Event {
 	}
 	
 	public FunctionEvent(final String topic, final String functionUID, final String propName, final FunctionData propValue) {
-		// FIXME c'è un modo migliore di fare ciò?
+		// FIXME is there a better way to do this ?
 		super(topic, new HashMap<String,Object>(){
 			{
 				put(PROPERTY_FUNCTION_UID, functionUID);

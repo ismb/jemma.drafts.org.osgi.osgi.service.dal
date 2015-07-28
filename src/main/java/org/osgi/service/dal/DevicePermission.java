@@ -72,17 +72,17 @@ public final class DevicePermission extends BasicPermission {
 		if (!(p instanceof DevicePermission)) {
 			return false;
 		}
-		// FIXME da verificare se e' il modo corretto per capire se quale costruttore e' stato usato
-		// in teoria no, perche' lo stesso filtro potrebbe essere usato anche con l'altro costruttore
+		// FIXME to be verified whether this is the right way to understand which constructor has been used.
+		// in theory not: the same filter could have been used also with the other constructor
 		if(p.getName().startsWith("("+Device.SERVICE_UID)) {
 			throw new IllegalArgumentException();
 		}
 		if(this==p) {
 			return true;
 		}
-		// FIXME come si capisce se un filter implica un altro? Così è corretto?
-		// Questo modo di verificare l'implicazione è legato a come si è scelto di implementare
-		// il costruttore con Device come parametro, cioè inserendo come filtro il service UID
+		// FIXME how do you understand if a filter implies another ? Is this the right way ?
+		// This way of verifying the implementation depends on HOW it has been decided to implement the constructor
+		// (with device as parameter, that is, including the service UID as filter)
 		return osgiFilter.match(FrameworkUtil.getBundle(this.getClass()).getBundleContext().getServiceReference(p.getName()));
 	}
 	
@@ -121,7 +121,7 @@ class DevicePermissionCollection extends PermissionCollection {
     	if (collectionPermission == null) {
     		collectionPermission = dp;
     	} else if (!collectionPermission.implies(permission)) {
-    		// FIXME è corretto così?
+    		// FIXME ï¿½ corretto cosï¿½?
     		collectionPermission = new DevicePermission(collectionPermission.getName() + " | " + permission.getName(), DevicePermission.ACTION_REMOVE);
     	}
     }
