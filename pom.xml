@@ -9,7 +9,7 @@
 	<artifactId>jemma.drafts.org.osgi.osgi.service.dal</artifactId>
 	<packaging>bundle</packaging>
 	<version>1.0.1</version>
-	<name>Dal Functions (draft)</name>
+	<name>Dal Base Classes (draft)</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
