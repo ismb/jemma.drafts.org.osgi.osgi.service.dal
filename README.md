@@ -1,7 +1,7 @@
 # OSGi Device Abstraction Layer implementation
 
     
-**IMPORTANT NOTE**: this bundle has been deprecated in the transition towards jemma v1.0.0 and it's only kept for historical reasons. New developments have been moved to the [ismb/jemma.drafts.org.osgi.osgi.service.dal](https://github.com/jemma.drafts.org.osgi.osgi.service.dal) project.
+**IMPORTANT NOTE**: this bundle has been deprecated in the transition towards jemma v1.0.0 and it's only kept for historical reasons. New developments have been moved to the [ismb/jemma.drafts.org.osgi.osgi.service.dal](https://github.com/ismb/jemma.drafts.org.osgi.osgi.service.dal) project.
 
 This bundle implements OSGi Device Abstraction Layer [rfc0196](https://github.com/osgi/design/raw/master/rfcs/rfc0196/)
 
