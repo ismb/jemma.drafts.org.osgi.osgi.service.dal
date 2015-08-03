@@ -8,7 +8,7 @@
 	<groupId>org.energy-home</groupId>
 	<artifactId>jemma.drafts.org.osgi.osgi.service.dal</artifactId>
 	<packaging>bundle</packaging>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<name>Dal Base Classes (draft)</name>
 
 	<properties>
@@ -68,6 +68,7 @@
 						</Import-Package>
 						<Export-Package>org.osgi.service.dal
 						</Export-Package>
+						<Bundle-Category>JEMMA DAL</Bundle-Category>
 					</instructions>
 				</configuration>
 			</plugin>

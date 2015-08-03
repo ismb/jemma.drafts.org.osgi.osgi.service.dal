@@ -9,11 +9,10 @@ public interface Function {
 	static final String SERVICE_DESCRIPTION = "dal.function.description";
 	static final String SERVICE_OPERATION_NAMES = "dal.function.operation.names";
 	static final String SERVICE_PROPERTY_NAMES = "dal.function.property.names";
-	
-	
+
 	PropertyMetadata getPropertyMetadata(String propertyName) throws IllegalArgumentException;
-	
+
 	OperationMetadata getOperationMetadata(String operationName) throws IllegalArgumentException;
-	
+
 	Object getServiceProperty(String propName);
 }

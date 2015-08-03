@@ -2,10 +2,11 @@ package org.osgi.service.dal;
 
 /**
  * 
- * Represents the device in the OSGi service registry. Note that Device services are registered last. Before their
- * registration, there is Function services registration. The reverse order is used when the services are unregistered.
+ * Represents the device in the OSGi service registry. Note that Device services
+ * are registered last. Before their registration, there is Function services
+ * registration. The reverse order is used when the services are unregistered.
  * Device services are unregistered first before Function services.
- *
+ * 
  */
 public interface Device {
 	static final String DEVICE_CATEGORY = "DAL";
@@ -23,7 +24,7 @@ public interface Device {
 	static final String SERVICE_MODEL = "dal.device.model";
 	static final String SERVICE_SERIAL_NUMBER = "dal.device.serial.number";
 	static final String SERVICE_DESCRIPTION = "dal.device.description";
-	
+
 	static final Integer STATUS_REMOVED = Integer.valueOf(0);
 	static final Integer STATUS_OFFLINE = Integer.valueOf(1);
 	static final Integer STATUS_ONLINE = Integer.valueOf(2);
@@ -40,10 +41,9 @@ public interface Device {
 	static final Integer STATUS_DETAIL_DEVICE_NOT_ACCESSIBLE = Integer.valueOf(13);
 	static final Integer STATUS_DETAIL_ERROR_APPLYING_CONFIGURATION = Integer.valueOf(14);
 	static final Integer STATUS_DETAIL_IN_DUTY_CYCLE = Integer.valueOf(15);
-	
-	
+
 	Object getServiceProperty(String propName);
-	
+
 	void remove() throws DeviceException, UnsupportedOperationException, SecurityException, IllegalStateException;
-	
+
 }

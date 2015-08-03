@@ -1,17 +1,18 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1438076214089
+Bnd-LastModified: 1438608516271
 Build-Jdk: 1.8.0_45
 Built-By: tomasi
+Bundle-Category: JEMMA DAL
 Bundle-ManifestVersion: 2
-Bundle-Name: Dal Functions (draft)
+Bundle-Name: Dal Base Classes (draft)
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-SymbolicName: jemma.drafts.org.osgi.osgi.service.dal;singleton:=t
  rue
 Bundle-Vendor: ISMB
-Bundle-Version: 1.0.1
+Bundle-Version: 1.0.2
 Created-By: Apache Maven Bundle Plugin
 Export-Package: org.osgi.service.dal;uses:="org.osgi.service.event";vers
- ion="1.0.1"
+ ion="1.0.2"
 Import-Package: org.osgi.framework;version="[1.5,2)",org.osgi.service.ev
  ent;version="[1.2,2)",org.slf4j;version="[1.6,2)"
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"

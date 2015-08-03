@@ -108,7 +108,7 @@ public interface Units {
 	static final String PREFIX_ATTO = "a";
 	static final String PREFIX_ZEPTO = "z";
 	static final String PREFIX_YOCTO = "y";
-	
-	//added for energy consumption of devices
-	static final String WATT_PER_HOUR="W h";
+
+	// added for energy consumption of devices
+	static final String WATT_PER_HOUR = "W h";
 }
